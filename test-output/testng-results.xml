@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="121" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+      <class name="annotation.AnnotationInTestNG">
+        <test-method status="PASS" signature="verifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanLoginWithValidUserNameAndPassword" duration-ms="28" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="verifyUserCanReadEmail()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanReadEmail" duration-ms="4" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanReadEmail -->
+        <test-method status="PASS" signature="verifyUserCanSendEmail()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanSendEmail" duration-ms="1" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanSendEmail -->
+      </class> <!-- annotation.AnnotationInTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
