@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+  <suite name="Default suite" duration-ms="40387" started-at="2022-07-19T21:40:49 IST" finished-at="2022-07-19T21:41:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
-      <class name="annotation.AnnotationInTestNG">
-        <test-method status="PASS" signature="verifyUserCanLoginWithValidUserNameAndPassword()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanLoginWithValidUserNameAndPassword" duration-ms="28" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
+    <test name="Default test" duration-ms="40387" started-at="2022-07-19T21:40:49 IST" finished-at="2022-07-19T21:41:29 IST">
+      <class name="annotation.FileUploadTestCase">
+        <test-method status="PASS" signature="verifyfileupload()[pri:0, instance:annotation.FileUploadTestCase@4bbfb90a]" name="verifyfileupload" duration-ms="40284" started-at="2022-07-19T21:40:49 IST" finished-at="2022-07-19T21:41:29 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserCanLoginWithValidUserNameAndPassword -->
-        <test-method status="PASS" signature="verifyUserCanReadEmail()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanReadEmail" duration-ms="4" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCanReadEmail -->
-        <test-method status="PASS" signature="verifyUserCanSendEmail()[pri:0, instance:annotation.AnnotationInTestNG@1efed156]" name="verifyUserCanSendEmail" duration-ms="1" started-at="2022-07-18T21:54:27 IST" finished-at="2022-07-18T21:54:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserCanSendEmail -->
-      </class> <!-- annotation.AnnotationInTestNG -->
+        </test-method> <!-- verifyfileupload -->
+      </class> <!-- annotation.FileUploadTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

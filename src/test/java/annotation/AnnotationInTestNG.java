@@ -2,7 +2,7 @@ package annotation;
 
 import org.testng.annotations.Test;
 
-public class AnnotationInTestNG {
+public class AnnotationInTestNG extends TestBase{
 
 	@Test
 	public void verifyUserCanLoginWithValidUserNameAndPassword()
@@ -19,4 +19,6 @@ public class AnnotationInTestNG {
 	{
 		System.out.println("verify User Can Read Email");
 	}
+	
+	
 }
