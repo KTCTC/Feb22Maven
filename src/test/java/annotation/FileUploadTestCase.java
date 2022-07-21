@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FileUploadTestCase {
@@ -59,7 +60,9 @@ public class FileUploadTestCase {
 		wt.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//h3[@id='res']/center")));
 
 		String msg = driver.findElement(By.xpath("//h3[@id='res']/center")).getText();
-
+     
+		 Assert.assertEquals(msg, "1 file has been successfully uploaded.");
+		
 		
 
 	}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="KT_123">
+  <test thread-count="5" name="KTCTCKTCTC">
+    <classes>
+      <class name="annotation.AnnotationInTestNG"/>
+      <class name="annotation.AnnotationCCC"/>
+      <class name="assertions.AssertionClass"/>
+      <class name="annotation.AnnotationInTestNGTwo"/>
+      <class name="assertions.SoftAssertionClass"/>
+      <class name="anno.AnnoClass"/>
+      <class name="annotation.FileUploadTestCase"/>
+    </classes>
+  </test> <!-- KTCTCKTCTC -->
+</suite> <!-- KT_123 -->
