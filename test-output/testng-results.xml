@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2022-07-21T21:46:18 IST" finished-at="2022-07-21T21:46:18 IST">
+  <suite name="Default suite" duration-ms="49021" started-at="2022-07-22T21:09:14 IST" finished-at="2022-07-22T21:10:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2022-07-21T21:46:18 IST" finished-at="2022-07-21T21:46:18 IST">
-      <class name="priority.PriorityClass">
-        <test-method status="PASS" signature="verifyExistingUserCanBeedited()[pri:2, instance:priority.PriorityClass@a7e666]" name="verifyExistingUserCanBeedited" duration-ms="9" started-at="2022-07-21T21:46:18 IST" finished-at="2022-07-21T21:46:18 IST">
+    <test name="Default test" duration-ms="49021" started-at="2022-07-22T21:09:14 IST" finished-at="2022-07-22T21:10:03 IST">
+      <class name="dataprovider.annotation.DataProviderClass2">
+        <test-method status="PASS" signature="verifyUserCanLoginWithProvidedCredentials2(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.annotation.DataProviderClass2@3fc2959f]" name="verifyUserCanLoginWithProvidedCredentials2" duration-ms="16027" started-at="2022-07-22T21:09:15 IST" data-provider="pair" finished-at="2022-07-22T21:09:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyExistingUserCanBeedited -->
-        <test-method status="PASS" signature="verifyExistingUserCanBeDeleted()[pri:3, instance:priority.PriorityClass@a7e666]" name="verifyExistingUserCanBeDeleted" duration-ms="0" started-at="2022-07-21T21:46:18 IST" finished-at="2022-07-21T21:46:18 IST">
+        </test-method> <!-- verifyUserCanLoginWithProvidedCredentials2 -->
+        <test-method status="PASS" signature="verifyUserCanLoginWithProvidedCredentials2(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.annotation.DataProviderClass2@3fc2959f]" name="verifyUserCanLoginWithProvidedCredentials2" duration-ms="10045" started-at="2022-07-22T21:09:31 IST" data-provider="pair" finished-at="2022-07-22T21:09:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyExistingUserCanBeDeleted -->
-        <test-method status="PASS" signature="verifyNewUserCanBeadded()[pri:1, instance:priority.PriorityClass@a7e666]" name="verifyNewUserCanBeadded" duration-ms="2" started-at="2022-07-21T21:46:18 IST" depends-on-methods="priority.PriorityClass.verifyExistingUserCanBeDeleted" finished-at="2022-07-21T21:46:18 IST">
+        </test-method> <!-- verifyUserCanLoginWithProvidedCredentials2 -->
+        <test-method status="PASS" signature="verifyUserCanLoginWithProvidedCredentials2(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.annotation.DataProviderClass2@3fc2959f]" name="verifyUserCanLoginWithProvidedCredentials2" duration-ms="11162" started-at="2022-07-22T21:09:42 IST" data-provider="pair" finished-at="2022-07-22T21:09:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PhoneNumber]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9956443344]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNewUserCanBeadded -->
-      </class> <!-- priority.PriorityClass -->
+        </test-method> <!-- verifyUserCanLoginWithProvidedCredentials2 -->
+        <test-method status="PASS" signature="verifyUserCanLoginWithProvidedCredentials2(java.lang.String, java.lang.String)[pri:0, instance:dataprovider.annotation.DataProviderClass2@3fc2959f]" name="verifyUserCanLoginWithProvidedCredentials2" duration-ms="9914" started-at="2022-07-22T21:09:53 IST" data-provider="pair" finished-at="2022-07-22T21:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indian]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginWithProvidedCredentials2 -->
+      </class> <!-- dataprovider.annotation.DataProviderClass2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
