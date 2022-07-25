@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="invocation.InvocationCountClass">
+      <class name="brockenlink.BrockenLinkClass5ToolQA3">
         <methods>
-          <include name="verifyUserCanSendEmail"/>
-          <include name="sample"/>
+          <include name="verifyLinksAreBrockenOrNot"/>
         </methods>
-      </class> <!-- invocation.InvocationCountClass -->
+      </class> <!-- brockenlink.BrockenLinkClass5ToolQA3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
