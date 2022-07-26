@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Regression</title>
+<title>TestNG:  regression</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Regression</h2><table border='1' align="center">
+<h2 align='center'>regression</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>36/13/3</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 19 21:37:57 IST 2022</td>
+<td>Started on:</td><td>Tue Jul 26 21:13:02 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (120 ms)</td>
+<tr><td>Total time:</td><td>165 seconds (165679 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,474 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='brockenlink.BrockenLinkClass4ToolQA2.sampleTestCase()'><b>sampleTestCase</b><br>Test class: brockenlink.BrockenLinkClass4ToolQA2</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-D2GVCL39&apos;, ip: &apos;192.168.29.64&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\91992\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 565d33489f0246ababc4931b607db01e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at brockenlink.BrockenLinkClass4ToolQA2.sampleTestCase(BrockenLinkClass4ToolQA2.java:33)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace703371162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace703371162'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.134)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-D2GVCL39&apos;, ip: &apos;192.168.29.64&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\91992\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55795}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 565d33489f0246ababc4931b607db01e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at brockenlink.BrockenLinkClass4ToolQA2.sampleTestCase(BrockenLinkClass4ToolQA2.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>59</td>
+<td>brockenlink.BrockenLinkClass4ToolQA2@1563da5</td></tr>
+<tr>
+<td title='screen.cpature.ScreenCaptureClass2.sampleTestCase()'><b>sampleTestCase</b><br>Test class: screen.cpature.ScreenCaptureClass2</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at screen.cpature.ScreenCaptureClass2.sampleTestCase(ScreenCaptureClass2.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace682932822", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace682932822'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at screen.cpature.ScreenCaptureClass2.sampleTestCase(ScreenCaptureClass2.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>103</td>
+<td>screen.cpature.ScreenCaptureClass2@7a1ebcd8</td></tr>
+<tr>
+<td title='brockenlink.BrockenLinkClass5ToolQA3.verifyLinksAreBrockenOrNot()'><b>verifyLinksAreBrockenOrNot</b><br>Test class: brockenlink.BrockenLinkClass5ToolQA3</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	https://demoqa.com/bad-request is brcken with status code = 400 expected [true] but found [false],
+	https://demoqa.com/unauthorized is brcken with status code = 401 expected [true] but found [false],
+	https://demoqa.com/forbidden is brcken with status code = 403 expected [true] but found [false],
+	https://demoqa.com/invalid-url is brcken with status code = 404 expected [true] but found [false]
+	at brockenlink.BrockenLinkClass5ToolQA3.verifyLinksAreBrockenOrNot(BrockenLinkClass5ToolQA3.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1779979392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1779979392'><pre>java.lang.AssertionError: The following asserts failed:
+	https://demoqa.com/bad-request is brcken with status code = 400 expected [true] but found [false],
+	https://demoqa.com/unauthorized is brcken with status code = 401 expected [true] but found [false],
+	https://demoqa.com/forbidden is brcken with status code = 403 expected [true] but found [false],
+	https://demoqa.com/invalid-url is brcken with status code = 404 expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at brockenlink.BrockenLinkClass5ToolQA3.verifyLinksAreBrockenOrNot(BrockenLinkClass5ToolQA3.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>56</td>
+<td>brockenlink.BrockenLinkClass5ToolQA3@ea1a8d5</td></tr>
+<tr>
+<td title='dependend.test.cases.DependentTestCasesClass2.verifyUserCanLoginWithValidUserNameAndPassword()'><b>verifyUserCanLoginWithValidUserNameAndPassword</b><br>Test class: dependend.test.cases.DependentTestCasesClass2</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at dependend.test.cases.DependentTestCasesClass2.verifyUserCanLoginWithValidUserNameAndPassword(DependentTestCasesClass2.java:12)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace149874557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace149874557'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at dependend.test.cases.DependentTestCasesClass2.verifyUserCanLoginWithValidUserNameAndPassword(DependentTestCasesClass2.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>dependend.test.cases.DependentTestCasesClass2@34c4973</td></tr>
+<tr>
+<td title='assertions.SoftAssertionClass.verifyUserCanLoginWithValidUserNameAndPassword()'><b>verifyUserCanLoginWithValidUserNameAndPassword</b><br>Test class: assertions.SoftAssertionClass</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	User name is not displayed expected [true] but found [false],
+	deleted user is displayed expected [false] but found [true]
+	at assertions.SoftAssertionClass.verifyUserCanLoginWithValidUserNameAndPassword(SoftAssertionClass.java:25)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1358686816", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1358686816'><pre>java.lang.AssertionError: The following asserts failed:
+	User name is not displayed expected [true] but found [false],
+	deleted user is displayed expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at assertions.SoftAssertionClass.verifyUserCanLoginWithValidUserNameAndPassword(SoftAssertionClass.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.SoftAssertionClass@78e67e0a</td></tr>
+<tr>
+<td title='assertions.SoftAssertionClass.verifyUserCanReadEmail()'><b>verifyUserCanReadEmail</b><br>Test class: assertions.SoftAssertionClass</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [anno.AnnoClass@75eabd4e]
+	at assertions.SoftAssertionClass.verifyUserCanReadEmail(SoftAssertionClass.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace985472083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace985472083'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [anno.AnnoClass@75eabd4e]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at assertions.SoftAssertionClass.verifyUserCanReadEmail(SoftAssertionClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.SoftAssertionClass@78e67e0a</td></tr>
+<tr>
+<td title='assertions.AssertionClass.verifyUserCanReadEmail()'><b>verifyUserCanReadEmail</b><br>Test class: assertions.AssertionClass</td>
+<td><div><pre>java.lang.AssertionError: Current share price is not matching expected [405.55] but found [405.55]
+	at assertions.AssertionClass.verifyUserCanReadEmail(AssertionClass.java:45)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace304829847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace304829847'><pre>java.lang.AssertionError: Current share price is not matching expected [405.55] but found [405.55]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at assertions.AssertionClass.verifyUserCanReadEmail(AssertionClass.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.AssertionClass@5faeada1</td></tr>
+<tr>
+<td title='assertions.SoftAssertionClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: assertions.SoftAssertionClass</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	values is not matching expected [45] but found [23]
+	at assertions.SoftAssertionClass.verifyUserCanSendEmail(SoftAssertionClass.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2044187928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044187928'><pre>java.lang.AssertionError: The following asserts failed:
+	values is not matching expected [45] but found [23]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at assertions.SoftAssertionClass.verifyUserCanSendEmail(SoftAssertionClass.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.SoftAssertionClass@78e67e0a</td></tr>
+<tr>
+<td title='assertions.AssertionClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: assertions.AssertionClass</td>
+<td><div><pre>java.lang.AssertionError: expected [null] but found [anno.AnnoClass@55d642b]
+	at assertions.AssertionClass.verifyUserCanSendEmail(AssertionClass.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace831789173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace831789173'><pre>java.lang.AssertionError: expected [null] but found [anno.AnnoClass@55d642b]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotSame(Assert.java:1033)
+	at org.testng.Assert.assertNull(Assert.java:965)
+	at org.testng.Assert.assertNull(Assert.java:953)
+	at assertions.AssertionClass.verifyUserCanSendEmail(AssertionClass.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.AssertionClass@5faeada1</td></tr>
+<tr>
+<td title='dependend.test.cases.DependentTestCasesClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: dependend.test.cases.DependentTestCasesClass</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at dependend.test.cases.DependentTestCasesClass.verifyUserCanSendEmail(DependentTestCasesClass.java:18)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace557627710", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace557627710'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at dependend.test.cases.DependentTestCasesClass.verifyUserCanSendEmail(DependentTestCasesClass.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>dependend.test.cases.DependentTestCasesClass@34cd072c</td></tr>
+<tr>
+<td title='invocation.InvocationCountClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: invocation.InvocationCountClass</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at invocation.InvocationCountClass.verifyUserCanSendEmail(InvocationCountClass.java:16)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2035390474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2035390474'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at invocation.InvocationCountClass.verifyUserCanSendEmail(InvocationCountClass.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+<tr>
+<td title='annotation.FileUploadTestCase.verifyfileupload()'><b>verifyfileupload</b><br>Test class: annotation.FileUploadTestCase</td>
+<td><div><pre>java.lang.AssertionError: expected [1 file has been successfully uploaded.] but found [1 file
+has been successfully uploaded.]
+	at annotation.FileUploadTestCase.verifyfileupload(FileUploadTestCase.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace97966075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace97966075'><pre>java.lang.AssertionError: expected [1 file has been successfully uploaded.] but found [1 file
+has been successfully uploaded.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at annotation.FileUploadTestCase.verifyfileupload(FileUploadTestCase.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>63</td>
+<td>annotation.FileUploadTestCase@69a3d1d</td></tr>
+<tr>
+<td title='assertions.AssertionClass.verifyuserslist()'><b>verifyuserslist</b><br>Test class: assertions.AssertionClass</td>
+<td><div><pre>java.lang.AssertionError: expected [45] but found [23]
+	at assertions.AssertionClass.verifyuserslist(AssertionClass.java:55)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace390675201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace390675201'><pre>java.lang.AssertionError: expected [45] but found [23]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at assertions.AssertionClass.verifyuserslist(AssertionClass.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>assertions.AssertionClass@5faeada1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,35 +543,272 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='anno.AnnoClass.A()'><b>A</b><br>Test class: anno.AnnoClass</td>
+<td></td>
+<td>0</td>
+<td>anno.AnnoClass@2f943d71</td></tr>
+<tr>
+<td title='enable.EnableInTestNG.A()'><b>A</b><br>Test class: enable.EnableInTestNG</td>
+<td></td>
+<td>0</td>
+<td>enable.EnableInTestNG@528931cf</td></tr>
+<tr>
+<td title='anno.AnnoClass.B()'><b>B</b><br>Test class: anno.AnnoClass</td>
+<td></td>
+<td>0</td>
+<td>anno.AnnoClass@2f943d71</td></tr>
+<tr>
 <td title='annotation.AnnotationCCC.firstTestCase()'><b>firstTestCase</b><br>Test class: annotation.AnnotationCCC</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationCCC@1f554b06</td></tr>
+<td>annotation.AnnotationCCC@7a765367</td></tr>
+<tr>
+<td title='enable.SampleClass.method1()'><b>method1</b><br>Test class: enable.SampleClass</td>
+<td></td>
+<td>0</td>
+<td>enable.SampleClass@2bbf4b8b</td></tr>
+<tr>
+<td title='enable.SampleClass.method2()'><b>method2</b><br>Test class: enable.SampleClass</td>
+<td></td>
+<td>0</td>
+<td>enable.SampleClass@2bbf4b8b</td></tr>
+<tr>
+<td title='enable.SampleClass.method3()'><b>method3</b><br>Test class: enable.SampleClass</td>
+<td></td>
+<td>0</td>
+<td>enable.SampleClass@2bbf4b8b</td></tr>
+<tr>
+<td title='enable.SampleClass.method4()'><b>method4</b><br>Test class: enable.SampleClass</td>
+<td></td>
+<td>0</td>
+<td>enable.SampleClass@2bbf4b8b</td></tr>
+<tr>
+<td title='enable.SampleClass.method5()'><b>method5</b><br>Test class: enable.SampleClass</td>
+<td></td>
+<td>0</td>
+<td>enable.SampleClass@2bbf4b8b</td></tr>
 <tr>
 <td title='annotation.AnnotationInTestNGTwo.sampleAMethodFromAnnotationInTestNGTwo()'><b>sampleAMethodFromAnnotationInTestNGTwo</b><br>Test class: annotation.AnnotationInTestNGTwo</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationInTestNGTwo@614ddd49</td></tr>
+<td>annotation.AnnotationInTestNGTwo@3043fe0e</td></tr>
 <tr>
 <td title='annotation.AnnotationInTestNGTwo.sampleBMethodFromAnnotationInTestNGTwo()'><b>sampleBMethodFromAnnotationInTestNGTwo</b><br>Test class: annotation.AnnotationInTestNGTwo</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationInTestNGTwo@614ddd49</td></tr>
+<td>annotation.AnnotationInTestNGTwo@3043fe0e</td></tr>
+<tr>
+<td title='brockenlink.BrockenLinkClass.sampleTestCase()'><b>sampleTestCase</b><br>Test class: brockenlink.BrockenLinkClass</td>
+<td></td>
+<td>20</td>
+<td>brockenlink.BrockenLinkClass@33c7e1bb</td></tr>
+<tr>
+<td title='brockenlink.BrockenLinkClass2.sampleTestCase()'><b>sampleTestCase</b><br>Test class: brockenlink.BrockenLinkClass2</td>
+<td></td>
+<td>32</td>
+<td>brockenlink.BrockenLinkClass2@480bdb19</td></tr>
+<tr>
+<td title='brockenlink.FindStatusCodeOfLink.sampleTestCase()'><b>sampleTestCase</b><br>Test class: brockenlink.FindStatusCodeOfLink</td>
+<td></td>
+<td>2</td>
+<td>brockenlink.FindStatusCodeOfLink@52feb982</td></tr>
+<tr>
+<td title='screen.cpature.ScreenCaptureClass.sampleTestCase()'><b>sampleTestCase</b><br>Test class: screen.cpature.ScreenCaptureClass</td>
+<td></td>
+<td>60</td>
+<td>screen.cpature.ScreenCaptureClass@30a3107a</td></tr>
+<tr>
+<td title='brockenlink.BrockenLinkClass3ToolQA.sampleTestCase()'><b>sampleTestCase</b><br>Test class: brockenlink.BrockenLinkClass3ToolQA</td>
+<td></td>
+<td>63</td>
+<td>brockenlink.BrockenLinkClass3ToolQA@76b0bfab</td></tr>
+<tr>
+<td title='priority.PriorityClass.verifyExistingUserCanBeDeleted()'><b>verifyExistingUserCanBeDeleted</b><br>Test class: priority.PriorityClass</td>
+<td></td>
+<td>0</td>
+<td>priority.PriorityClass@80503</td></tr>
+<tr>
+<td title='priority.PriorityClass.verifyExistingUserCanBeedited()'><b>verifyExistingUserCanBeedited</b><br>Test class: priority.PriorityClass</td>
+<td></td>
+<td>0</td>
+<td>priority.PriorityClass@80503</td></tr>
+<tr>
+<td title='priority.PriorityClass.verifyNewUserCanBeadded()'><b>verifyNewUserCanBeadded</b><br>Test class: priority.PriorityClass</td>
+<td></td>
+<td>0</td>
+<td>priority.PriorityClass@80503</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass2.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass2<br>Parameters: Name, Ajay</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass2@17d677df</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass2.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass2<br>Parameters: Add, Pune</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass2@17d677df</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass2.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass2<br>Parameters: PhoneNumber, 9956443344</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass2@17d677df</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass2.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass2<br>Parameters: Indian, false</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass2@17d677df</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass<br>Parameters: Ajay, Ajay@123</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass@4b553d26</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass<br>Parameters: Sanjay, Sanjay@345</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass@4b553d26</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass.verifyUserCanLoginWithProvidedCredentials2()'><b>verifyUserCanLoginWithProvidedCredentials2</b><br>Test class: dataprovider.annotation.DataProviderClass<br>Parameters: Amar, Am&4567</td>
+<td></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass@4b553d26</td></tr>
+<tr>
+<td title='assertions.AssertionClass.verifyUserCanLoginWithValidUserNameAndPassword()'><b>verifyUserCanLoginWithValidUserNameAndPassword</b><br>Test class: assertions.AssertionClass</td>
+<td></td>
+<td>0</td>
+<td>assertions.AssertionClass@5faeada1</td></tr>
+<tr>
+<td title='dependend.test.cases.DependentTestCasesClass.verifyUserCanLoginWithValidUserNameAndPassword()'><b>verifyUserCanLoginWithValidUserNameAndPassword</b><br>Test class: dependend.test.cases.DependentTestCasesClass</td>
+<td></td>
+<td>0</td>
+<td>dependend.test.cases.DependentTestCasesClass@34cd072c</td></tr>
 <tr>
 <td title='annotation.AnnotationInTestNG.verifyUserCanLoginWithValidUserNameAndPassword()'><b>verifyUserCanLoginWithValidUserNameAndPassword</b><br>Test class: annotation.AnnotationInTestNG</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationInTestNG@76707e36</td></tr>
+<td>annotation.AnnotationInTestNG@11438d26</td></tr>
 <tr>
 <td title='annotation.AnnotationInTestNG.verifyUserCanReadEmail()'><b>verifyUserCanReadEmail</b><br>Test class: annotation.AnnotationInTestNG</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationInTestNG@76707e36</td></tr>
+<td>annotation.AnnotationInTestNG@11438d26</td></tr>
+<tr>
+<td title='dependend.test.cases.DependentTestCasesClass2.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: dependend.test.cases.DependentTestCasesClass2</td>
+<td></td>
+<td>0</td>
+<td>dependend.test.cases.DependentTestCasesClass2@34c4973</td></tr>
 <tr>
 <td title='annotation.AnnotationInTestNG.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: annotation.AnnotationInTestNG</td>
 <td></td>
 <td>0</td>
-<td>annotation.AnnotationInTestNG@76707e36</td></tr>
+<td>annotation.AnnotationInTestNG@11438d26</td></tr>
+<tr>
+<td title='invocation.InvocationCountClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: invocation.InvocationCountClass</td>
+<td></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+<tr>
+<td title='invocation.InvocationCountClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: invocation.InvocationCountClass</td>
+<td></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+<tr>
+<td title='invocation.InvocationCountClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: invocation.InvocationCountClass</td>
+<td></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+<tr>
+<td title='invocation.InvocationCountClass.verifyUserCanSendEmail()'><b>verifyUserCanSendEmail</b><br>Test class: invocation.InvocationCountClass</td>
+<td></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='invocation.InvocationCountClass.sample()'><b>sample</b><br>Test class: invocation.InvocationCountClass</td>
+<td><div><pre>java.lang.Throwable: Method InvocationCountClass.sample()[pri:0, instance:invocation.InvocationCountClass@bd8db5a] depends on not successfully finished methods
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2004025726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2004025726'><pre>java.lang.Throwable: Method InvocationCountClass.sample()[pri:0, instance:invocation.InvocationCountClass@bd8db5a] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>invocation.InvocationCountClass@bd8db5a</td></tr>
+<tr>
+<td title='dataprovider.annotation.DataProviderClass3.verifyNewUserCanBeAddedWithProvidedData()'><b>verifyNewUserCanBeAddedWithProvidedData</b><br>Test class: dataprovider.annotation.DataProviderClass3</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	Duplicate local variable data
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Duplicate local variable data
+
+	at dataprovider.annotation.DataProviderClass3.sendUserCredentials(DataProviderClass3.java:43)
+	... 12 more
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace91021980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace91021980'><pre>java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	Duplicate local variable data
+
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Duplicate local variable data
+
+	at dataprovider.annotation.DataProviderClass3.sendUserCredentials(DataProviderClass3.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 12 more
+</pre></div></td>
+<td>0</td>
+<td>dataprovider.annotation.DataProviderClass3@86be70a</td></tr>
+<tr>
+<td title='dependend.test.cases.DependentTestCasesClass.verifyUserCanReadEmail()'><b>verifyUserCanReadEmail</b><br>Test class: dependend.test.cases.DependentTestCasesClass</td>
+<td><div><pre>java.lang.Throwable: Method DependentTestCasesClass.verifyUserCanReadEmail()[pri:0, instance:dependend.test.cases.DependentTestCasesClass@34cd072c] depends on not successfully finished methods
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace175642691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace175642691'><pre>java.lang.Throwable: Method DependentTestCasesClass.verifyUserCanReadEmail()[pri:0, instance:dependend.test.cases.DependentTestCasesClass@34cd072c] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>dependend.test.cases.DependentTestCasesClass@34cd072c</td></tr>
 </table><p>
 </body>
 </html>
